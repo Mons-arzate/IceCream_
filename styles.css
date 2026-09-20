@@ -6,14 +6,16 @@
 }
 
 body {
-  background-color: #f8e88f;
+  background-color: #fffadc;
+  border: #FFF9E3;
 }
 
 /* ---------- HEADER ---------- */
 .header {
-  background: linear-gradient(90deg, #7bfa55, #7dfff4);
-  padding: 18px 35px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  background: linear-gradient(90deg, #a0ddf2, #fde185);
+  padding: 17px 30px;
+  box-shadow: 0 6px 8px rgba(0,0,0,0.09);
+  gap: 10px;
 }
 
 .header-content {
@@ -76,11 +78,13 @@ body {
 }
 
 .flavors-section {
-  background-color: #e3ffff;
+  background-color: #FFF9E3;
   padding: 40px 30px;
   width: 100%;
-  min-height:600px;
+  min-height: 650px;
+  padding: 50px;
 }
+
 
 .flavors-title {
   color: #4A4A4A;
@@ -113,6 +117,7 @@ body {
   width: 220px;
   box-shadow: 0 4px 12px rgba(154, 212, 232, 0.25);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
 }
 
 .card:hover {
@@ -145,4 +150,18 @@ body {
   font-size: 0.78rem;
   color: #7A7A7A;
   line-height: 1.4;
+}
+
+
+.card-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  transition: transform 0.25s ease;
+}
+
+.card-img:hover {
+  transform: scale(1.05);
 }

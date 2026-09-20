@@ -13,17 +13,22 @@
     <header class="header">
         <div class="header-content">
             <div class="header-logo">
-                <img src="./images/icon.jpeg" alt="" width="50px" width="50px" height="50px"
-                    style="border-radius: 50%;">
-                <p> SKZOO - ice Cream</p>
+                <div class="header-logo">
+                    <svg viewBox="0 0 120 120" class="scoop-icon">
+                        <circle cx="60" cy="60" r="50" fill="#FFFFFF" />
+                        <circle cx="45" cy="45" r="9" fill="#FFE07D" opacity="0.8" />
+                    </svg>
+                    <p>SKZOO</p>
+                </div>
             </div>
 
             <nav class="header-nav">
-                <a href="#inicio">Inicio</a>
-                <a href="#sabores">Sabores</a>
+                <a href="#">Inicio</a>
+                <a href="#">Sabores</a>
+                <a href="#">Sucursales</a>
+                <a href="#">Contacto</a>
             </nav>
-
-            <button class="header-btn">Encuentra SKZOO</button>
+            <button class="header-btn">Visitar sitio</button>
         </div>
     </header>
 
@@ -32,28 +37,33 @@
 
         <div class="cards-container">
 
-            <div class="card" style=" background: #ffffff;
-  border: 2px solid #FFE07D;">
+
+            <div class="card" style="background: #FFF6E9; border: 2px solid #FFE07D;">
                 <span class="card-label">VAINILLA</span>
                 <div class="scoop-wrapper">
-                    <svg viewBox="0 0 120 120" class="scoop">
-                        <circle cx="60" cy="60" r="50" fill="#FFF6D9" />
-                        <circle cx="45" cy="45" r="10" fill="#FFFDF5" opacity="0.7" />
-                    </svg>
+                    <img src="./imagenes/vainilla.jpg" alt="Vainilla" class="card-img">
+                </div>
+                <p class="card-desc">Ingredientes naturales. Sabor real hecho para días soleados.</p>
+            </div>
+            <div class="card" style="background: #F7F4EA; border: 2px solid #D8CBB3;">
+                <span class="card-label">GALLETA & CREMA</span>
+                <div class="scoop-wrapper">
+                    <img src="./imagenes/galleta.jpg" alt="Galleta & Crema" class="card-img" >
+                </div>
+                <p class="card-desc">Ingredientes naturales. Sabor real hecho para días soleados.</p>
+            </div>
+            <div class="card" style="background: #FFE9EF; border: 2px solid #FF8FC7;">
+                <span class="card-label">FRESA</span>
+                <div class="scoop-wrapper">
+                    <img src="./imagenes/fresa.jpg" alt="Fresa" class="card-img">
                 </div>
                 <p class="card-desc">Ingredientes naturales. Sabor real hecho para días soleados.</p>
             </div>
 
-            <div class="card" style="background: #FFFDF0; border: 2px solid #FFE07D;">
-                <span class="card-label">GALLETA & CREMA</span>
+            <div class="card" style="background: #E9FBF2; border: 2px solid #6BCB9A;">
+                <span class="card-label">CHOCOLATE CON MENTA</span>
                 <div class="scoop-wrapper">
-                    <svg viewBox="0 0 120 120" class="scoop">
-                        <circle cx="60" cy="60" r="50" fill="#F5F1E6" />
-                        <circle cx="40" cy="50" r="5" fill="#5C4A3D" />
-                        <circle cx="70" cy="40" r="4" fill="#5C4A3D" />
-                        <circle cx="55" cy="75" r="4.5" fill="#5C4A3D" />
-                        <circle cx="80" cy="70" r="3.5" fill="#5C4A3D" />
-                    </svg>
+                    <img src="./imagenes/chocomenta.jpg" alt="Chocolate con menta" class="card-img">
                 </div>
                 <p class="card-desc">Ingredientes naturales. Sabor real hecho para días soleados.</p>
             </div>
